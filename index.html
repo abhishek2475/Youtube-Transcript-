@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        body {
+            width:max-content;
+            max-width: 800px;
+        }
+        button {
+           background-color: blueviolet;
+           color: black;
+           border-radius: 8px;
+           width: max-content;
+           height: max-content; 
+        }
+        button[disabled] {
+           background-color: blue;
+           color: red;
+           border-radius: 8px;
+           width: max-content;
+           height: max-content;
+        }
+    </style>
+</head>
+<body>
+     <h1>Welcome To Youtube Transcript Summarizer</h1>
+        <button id="summarise" type="button">Summarize Now</button>
+        <br/>
+        <p id="Output"></p>
+        <script src="indexj_s.js"></script>
+</body>
+</html>
